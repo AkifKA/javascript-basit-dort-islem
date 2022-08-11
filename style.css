@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkorange;
+    margin: 30px;
+    /* border: 3px solid red; */
+}
+main{
+   
+    width: 90%;
+    margin: auto;
+}
+.birinci_yol{
+    /* background-color: red; */
+    font-size: 24px;
+    margin: 16px 0;
+}
+.birinci_yol fieldset{
+    height: 270px;
+}
+.islemler{
+margin: 16px 0;
+}
+.grup1{
+    width: 95%;
+    margin: auto;
+    padding: 25px;
+}
+#ilk_sayi, #ikinci_sayi{
+    margin: 6px 12px;
+}
+#sonuc{
+    border-color: azure;
+background-color: crimson;
+color: beige;
+display: inline;
+margin-right: 100px;
+}
+.sonuc1{
+    width: 80%;
+    margin: auto;
+}
+#temizle{
+    display: inline;
+}
+
+#ilk_sayi, #ikinci_sayi, #sonuc, #sonuc2, #button1, #button2, #temizle{
+    height: 30px;
+}
+/* .ikinci_yol{
+    font-size: 24px;
+    margin: 16px 0;
+} */
+/* .ikinci_yol fieldset{
+    height: 270px;
+} */
+.islemler2{
+    margin: 16px 0;
+}
+/* .grup2{
+    width: 95%;
+    margin: auto;
+    padding: 25px;
+} */
+#islemler2{
+    font-size: 16px;
+    height: 36px;
+}
+#button1, #button2{
+    border-color: darkred;
+background-color: darkorange;
+   height: 2.5rem; 
+   width: 5rem;
+   color: white;
+ 
+}
+#button1:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#button2:hover{
+    background-color: red;
+    cursor: pointer;
+}
+

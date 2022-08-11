@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript İle Basit Dört İşlem</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript İle Dört İşlem</h1>
+    </header>
+    <main>
+    <section class="birinci_yol">
+      <form action="">
+        <fieldset>
+          <legend>Radio Butonları İle Dört İşlem</legend>
+          <div class="grup1">
+          <div class="sayi_girisi1">
+            <label for="ilk_sayi">1. Sayı</label>
+            <input type="number" name="ilk_sayi" id="ilk_sayi" value="ilk_sayi" />
+          </div>
+          <div class="sayi_girisi2">
+            <label for="">2. Sayı</label>
+            <input type="number" name="ikinci_sayi" id="ikinci_sayi" value="ikinci_sayi" />
+          </div>
+          <div class="islemler">
+            <input type="radio" name="islem" id="topla" value="topla" />
+            <label for="topla">Topla</label>
+            <input type="radio" name="islem" id="cikar" value="cikar" />
+            <label for="cikar">Çıkar</label>
+            <input type="radio" name="islem" id="carp" value="carp" />
+            <label for="carp">Çarp</label>
+            <input type="radio" name="islem" id="bol" value="bol" />
+            <label for="bol">Böl</label> 
+          </div>
+          <div class="sonuc">
+            <input type="button" id="button1" value="HESAPLA" />
+            <div id="sonuc"></div>
+            <input type="button" id="button2" value="TEMİZLE" />
+           
+          <!-- <div id="temizle"> <input type="reset" value="TEMİZLE"></div> -->
+          
+            
+          </div>
+        </div>
+        </fieldset>
+      </form>
+    </section>
+    <!-- <section class="ikinci_yol">
+        <form action="">
+            <fieldset>
+              <legend>İkinci Yöntem CheckBox Butonları</legend>
+              <div class="grup2">
+              <div class="sayi_girisi1">
+                <label for="sayi1">1. Sayı</label>
+                <input type="number" name="sayi1" id="sayi1" />
+              </div>
+              <div class="sayi_girisi2">
+                <label for="sayi2">2. Sayı</label>
+                <input type="number" name="sayi1" id="sayi2" />
+              </div>
+              <div class="islemler2">
+                <label for="islem_tur">Lütfen İşlem Türünü Seçiniz</label>
+               <select name="islemler2" id="islemler2">
+                <option name="empty" id="empty" value="empty" >Seçiniz...</option>
+                <option name="topla2" id="topla2" value="topla2">Topla</option>
+                <option name="cikar2" id="cikar2"value="cikar2">Çıkar</option>
+                <option name="carp2" id="carp2"value="carp2">Çarp</option>
+                <option name="bol2" id="bol2"value="bol2">Böl</option>
+               </select>
+              </div>
+              <div class="sonuc">
+                <input type="button" id="button2" value="HESAPLA" />
+               
+              <div id="sonuc"></div>
+              <div id="temizle"> <input type="reset" value="TEMİZLE"></div>
+            </div>
+            </fieldset>
+          </form>
+    </section> -->
+</main>
+<script src="app.js"></script>
+  </body>
+</html>
